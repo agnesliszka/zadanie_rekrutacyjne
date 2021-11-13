@@ -34,8 +34,18 @@
             </div>
             <div class='line'>
                 <input type="text" placeholder="Firma">
-                <input type="text" placeholder="Ilość pracowników">
-                <input type="text" placeholder="Roczny dochód firmy">
+                <select class="form-select">
+                    <option selected>Ilość pracowników</option>
+                    <option value="1-10">1-10</option>
+                    <option value="10-50">10-50</option>
+                    <option value="50-100">50-100</option>
+                </select>
+                <select class="form-select">
+                    <option selected>Roczny dochód firmy</option>
+                    <option value="1mln">1mln</option>
+                    <option value="2mln">2mln</option>
+                    <option value="3mln">3mln</option>
+                </select>
             </div class='line'>
             <div class='line' >
                 <input class='message' type="text" placeholder="Wiadomość" size="71">

@@ -61,7 +61,7 @@
         margin-top: 2px;
     }
     
-    .line input {
+    .line input, .line select {
         font-size: 6px;
     }
     
@@ -76,6 +76,7 @@
 
     .message {
         line-height: 3.5em;
+        width: 236px;
     }
 
     .span {
@@ -243,9 +244,15 @@ p.center-text {
     margin-top: 10px;
 }
 
-.line input {
+.line input  {
     font-size: 8px;
 }
+
+.form-select {
+    font-size: 8px;
+    height: 19px;
+    width: 105px;
+ }
 
 .confirm {
     margin-top: 10px;
@@ -282,6 +289,7 @@ p.center-text {
 
 .message {
     line-height: 4em;
+    width: 322px;
 }
 
 .span {
